@@ -81,7 +81,7 @@ loss, acc = model.evaluate(test_dataset)
 print(f"Test Accuracy: {acc*100:.2f}%")
 
 # ---------- Predict random image from test ----------
-test_folder = r"D:\Butterflies.proj\Processed_test"
+test_folder = r"D:\CIFAR-10_CNN\Processed_test"
 img_name = random.choice(os.listdir(os.path.join(test_folder, class_names[0])))  # صورة عشوائية من أول class
 img_path = os.path.join(test_folder, class_names[0], img_name)
 
