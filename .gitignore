@@ -1,0 +1,48 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Ignore virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Ignore data folders
+Data/
+Processed_train/
+Processed_test/
+
+# Ignore models
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+
+# Ignore images and large files
+*.jpg
+*.jpeg
+*.png
+*.csv
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+*.rar
+
+# VSCode settings
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.out
+*.aux
